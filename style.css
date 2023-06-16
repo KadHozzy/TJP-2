@@ -76,7 +76,7 @@ footer{
 
 .downlist{
     display: flex;
-    justify-content: space-evenly;
+    justify-content:space-evenly;
 }
 .downlist img{
     margin-left: 40px;
@@ -87,19 +87,19 @@ footer{
 }
 
 .welcome{
-font-family: Halant;
-font-size: 24px;
-font-weight: 600;
-line-height: 36px;
-letter-spacing: 0.5px;
-text-align: left;
-color: #2E3A53;
+    font-family: Halant;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #2E3A53;
 
 }
 a{
     text-decoration: none;
- }
-  .hire {
+}
+.hire{
     border: 1px solid blue;
     border-radius: 8px;
     font-family: "Manrope";
@@ -138,33 +138,34 @@ color:#2E3A53;
 }
 
 .seemyprojects{
-        font-family: "Manrope";
-        font-style: normal;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 150%;
-        letter-spacing: 0.5px;
-        background: #155eef;
-        border-radius: 8px;
-        color: #ffffff;
-        width: 30%;
-        padding: 2% 2.5%;
-        cursor: pointer;
- }
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    background: #155eef;
+    border-radius: 8px;
+     color: #ffffff;
+    width: 30%;
+    padding: 2% 2.5%;
+     cursor: pointer;
+}
 
     
- .left1{
-        width: 40%;
-     }
-      .right2{
-        width: 50%;
-      }
-      .welcome{
-        font-family: Halant;
-        font-size: 24px;
-        font-weight: 600;
-        line-height: 36px;
-        letter-spacing: 0.5px;
+.left1{
+    width: 40%;
+}
+
+.right2{
+    width: 50%;
+}
+.welcome{
+    font-family: Halant;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0.5px;
 }
 .sammy{
     font-family: Halant;
@@ -188,18 +189,18 @@ color:#2E3A53;
 }
 
 .sammyj{
-font-family: Manrope;
-font-size: 150%;
-font-weight: 500;
-line-height: 36px;
-letter-spacing: 0.5px;
-text-align: left;
-color:#041330;
-
+    font-family: Manrope;
+    font-size: 150%;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color:#041330;
 }
+
 footer{
     display: flex;
-justify-content: space-between;
+    justify-content: space-between;
 }
 
 .pixboy{
@@ -208,4 +209,72 @@ justify-content: space-between;
 
 .teal{
     width: 95%;
+}
+.container3{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    position: relative;
+    
+    height: 5%;
+    border: 1px solid #155eef;
+    border-radius: 8px;
+    margin:0.5% 3%;
+    padding-bottom: 2%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 8%;
+}
+.projects{
+    font-family: Halant;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #041330;
+}
+li, .complete{
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #2E3A53;
+}
+
+.left3{
+    position: absolute;
+    top: 8%;
+    left: 3%;
+    /* z-index: -4; */
+    box-sizing: content-box;
+    border-radius: 8px;
+    /* border: 1px solid blue; */
+    width: 33%;
+    height:fit-content;
+    padding-top: 3%;
+    padding-bottom:0.5%;
+    padding-left: 3%;
+    padding-right: 5%;
+    background: #f9fbff;     
+
+ }
+.ul{
+    padding-left: 5%;
+}
+
+
+.right3{
+    width:47%;
+
+}
+.pixboy2{
+
+}
+
+    /* width:40%; */
+    
+
 }
