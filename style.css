@@ -13,12 +13,18 @@ header{
     border: 2px solid #155eef;
     border-radius: 8px;
     padding: 8px 32px;
-    margin: 2% 3%;
-    /* width: 100%; */
-    
+    margin: 2% 3%;    
 }
-
-.toplist{
+.logomobile{
+    display: none;
+}
+.logo img{
+    width: 100%;
+}
+.logo{
+    width: 15%;
+}
+nav {
     display: flex;
     justify-content: space-evenly;
     width: 30%;
@@ -30,10 +36,32 @@ header{
     letter-spacing: 0em;
     text-align: left;
     font-family: 'Halant'
-
 }
-
-.container{
+a{
+    text-decoration: none;
+}
+.home,.about{
+    color: #041330
+}
+.hire{
+    border: 1px solid blue;
+    border-radius: 8px;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #155eef;
+    background-color: white;
+    cursor: pointer;
+    width: 94px;
+    height: 44px;
+    padding: 10px 16px;
+}
+.vector{
+    display: none;
+}
+.section1{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -41,17 +69,59 @@ header{
     border: 2px solid #155eef;
     border-radius: 8px;
     padding: 64px 32px;
-    margin: 0.5% 3%;
-        
+    margin: 0.5% 3%;      
 }
-
 .left{
     width: 55%;
+}
+.welcome{
+    font-family: Halant;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #2E3A53;
+}
+.sammy{
+    font-family: Halant;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 67px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #155EEF;
+}
+.developer{
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #2E3A53;
+}
+.seemyprojects{
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    background: #155eef;
+    border-radius: 8px;
+    color: #ffffff;
+    width: 30%;
+    padding: 2% 2.5%;
+    cursor: pointer;
 }
 .right{
     width: 35%;
 }
-.container2{
+.teal{
+    width: 95%;
+}
+.section2{
     display: flex;
     flex-direction: row;
     background:#155EEF, #F9FBFF;
@@ -62,40 +132,14 @@ header{
     align-items: center;
     justify-content: space-between;   
 }
-
-.home,.about{
-    color: #041330
+.left1{
+    width: 40%;
 }
-
-.welcome{
-    font-family: Halant;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 36px;
-    letter-spacing: 0.5px;
-    text-align: left;
-    color: #2E3A53;
-
+.pixboy{
+    width: 100%;
 }
-a{
-    text-decoration: none;
-}
-.hire{
-    border: 1px solid blue;
-    border-radius: 8px;
-    font-family: "Manrope";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 150%;
-    /* letter-spacing: 0.5px; */
-    color: #155eef;
-    background-color: white;
-    cursor: pointer;
-    width: 94px;
-    height: 44px;
-    padding: 10px 16px;
-
+.right2{
+    width: 50%;
 }
 .aboutme{
 font-family: Halant;
@@ -105,7 +149,6 @@ line-height: 48px;
 letter-spacing: 0em;
 text-align: left;
 color: #041330;
-
 }
 .experience{
 font-family: Manrope;
@@ -115,71 +158,9 @@ line-height: 36px;
 letter-spacing: 0.5px;
 text-align: justified;
 color:#2E3A53;
-
 }
-
-.seemyprojects{
-    font-family: "Manrope";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.5px;
-    background: #155eef;
-    border-radius: 8px;
-     color: #ffffff;
-    width: 30%;
-    padding: 2% 2.5%;
-     cursor: pointer;
-}
-
-    
-.left1{
-    width: 40%;
-}
-
-.right2{
-    width: 50%;
-}
-.welcome{
-    font-family: Halant;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 36px;
-    letter-spacing: 0.5px;
-}
-.sammy{
-    font-family: Halant;
-    font-size: 56px;
-    font-weight: 600;
-    line-height: 67px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #155EEF;
-
-}
-.developer{
-    font-family: Manrope;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 150%;
-    letter-spacing: 0.5px;
-    text-align: left;
-    color: #2E3A53;
-
-}
-
-.pixboy{
-    width: 100%;
-}
-
-.teal{
-    width: 95%;
-}
-
-.container3{
+.section3{
     display: flex;
-    /* align-items: flex-end; */
     justify-content: flex-end;
     position: relative;
     border: 2px solid #155eef;
@@ -187,6 +168,18 @@ color:#2E3A53;
     margin:0.5% 3%;
     padding: 8% 2% 2% 5%;
 }
+.section3{
+    display: none;
+}
+.left3{
+    position: absolute;
+    top: 5%;
+    left: 3%;
+    border-radius: 8px;
+    width: 55%;
+    padding: 5% 3%;
+    background: #f9fbff;     
+ }
 .projects{
     font-family: Halant;
     font-size: 36px;
@@ -196,7 +189,7 @@ color:#2E3A53;
     text-align: left;
     color: #041330;
 }
-li, .complete{
+.complete{
     font-family: Manrope;
     font-size: 24px;
     font-weight: 400;
@@ -204,9 +197,6 @@ li, .complete{
     letter-spacing: 0.5px;
     text-align: left;
     color: #2E3A53;
-}
-li{
-    padding-bottom: 2%;
 }
 ul{
     font-family: Manrope;
@@ -217,77 +207,37 @@ ul{
     text-align: left;
     color: #2E3A53;
     width: 90%;
-
-}
-
-.left3{
-    position: absolute;
-    top: 5%;
-    left: 3%;
-    /* z-index: -4; */
-    /* box-sizing: content-box; */
-    border-radius: 8px;
-    width: 55%;
-    padding: 5% 3%;
-    background: #f9fbff;     
-
- }
-.ul{
     padding-left: 5%;
 }
-
-
+li{
+    padding-bottom: 2%;
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #2E3A53;   
+}
 .right3{
     width: 55%;
-
 }
 .pixboy2{
     width: 100%;
-}
-
-    /* width:40%; */
-    
-.container3{
-    display: none;
-}
-.vector{
-    display: none;
-}
-.logomobile{
-    display: none;
-}
-.d2{
-    display: none;
-}
-.sammyjmobile{
-    display: none;
-}
- 
+} 
 .footerdesktop{
     display: flex;
     justify-content: space-between;
-    /* gap: 22%; */
     align-items: center;
     border: 2px solid #155eef;
     border-radius: 8px;
     padding: 8px 32px;
     margin: 3% 3%;
-}
+} 
 .downlist{
     display: flex;
-    /* justify-content:space-between; */
-    /* width: 15%; */
     align-items: justify;
     gap: 45%;
-}
-.downlist img{
-    /* margin-left: 20px; */
-}
-.logo img{
-    width: 100%;
-}
-.logo{
-    width: 15%;
 }
 .sammyj{
     font-family: Manrope;
@@ -295,13 +245,15 @@ ul{
     font-weight: 500;
     line-height: 36px;
     letter-spacing: 0.5px;
-    /* text-align: left; */
     color:#041330;
-    /* width: 30%; */
 }
 .footermobile{
     display: none;
 }
+.sammyjmobile{
+    display: none;
+}
+
 @media screen and (max-width: 398px) {
     .left{
         width: 100%;
