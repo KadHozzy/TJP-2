@@ -169,7 +169,7 @@ color:#2E3A53;
     padding: 8% 2% 2% 5%;
 }
 .section3{
-    display: none;
+    /* display: none; */
 }
 .left3{
     position: absolute;
@@ -273,7 +273,7 @@ li{
     .vector{
         display: block;
     }
-    .container{
+    .section1{
         display: flex;
         flex-direction: column;
         border: 1px solid blue;
@@ -304,7 +304,7 @@ li{
     .teal{
         width: 100%;
     }
-    .container2{
+    .section2{
         display: flex;
         flex-direction: column-reverse;
         border: 1px solid blue;
@@ -325,6 +325,10 @@ li{
     .pixboy{
         width: 100%;
     }
+    .section3{
+        display: none;
+    }
+
     .footerdesktop{
         display: none;
     }
